@@ -1,0 +1,40 @@
+h1{
+    color: green;
+}
+.main-container,.box{
+    border-radius: 7px;
+}
+.main-container{
+    background: whitesmoke;
+}
+.box{
+width: 330px;
+height:100px;
+text-align: center;
+float: left;
+}
+.box-1{
+    background-color: gray;
+    color: red;
+    padding-top: 20px;
+}
+.box-2{
+    background-color: rgb(153, 152, 152);
+    color: red;
+    padding-top: 20px;
+}
+.box-3{
+background-color: rgb(160, 159, 159);
+color: red;
+padding-top: 20px;
+}
+.box-4{
+    background-color: rgb(204, 204, 204);
+    color: red;
+    padding-top: 20px;
+}
+@media screen and (max-width:1350px){
+    .boxes{
+        display: block;
+    }
+}
